@@ -1,0 +1,9 @@
+class CheckNum {
+  boolean isEven(int x) { //вернуть значение true, если x содержит четное число, x - целочисленный параметр метода
+    if ((x%2)==0) {
+        return true;
+    } else {
+      return false;
+    }
+  }  
+}
