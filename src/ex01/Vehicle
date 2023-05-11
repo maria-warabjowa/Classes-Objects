@@ -2,4 +2,8 @@ class Vehicle {
   int passengers;
   int fuelcap;
   int mpg; // потребление топлива в милях на галлон
+  
+  void range () {
+    System.out.println("Дальность поездки транспортного средства  "+fuelcap*mpg+" миль");
+  }
 }
