@@ -1,0 +1,11 @@
+class IsFact {
+  public static void main (String args[]) {
+    Factor c = new Factor ();
+    if (x.isFactor(2, 20)) {
+      System.out.println ("2 делитель для 20");
+    }
+    if (x.isFactor (3, 20)) {
+      System.out.println("Эта стрлка не будет выведена");
+    }
+  }
+}
