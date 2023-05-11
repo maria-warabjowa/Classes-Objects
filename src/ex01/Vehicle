@@ -6,4 +6,8 @@ class Vehicle {
   void range () {
     System.out.println("Дальность поездки транспортного средства  "+fuelcap*mpg+" миль");
   }
+  
+  int range () {
+    return mpg*fuelcap;
+  }
 }
